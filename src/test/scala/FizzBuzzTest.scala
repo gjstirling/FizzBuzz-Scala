@@ -17,4 +17,8 @@ class FizzBuzzTest extends AnyFunSuite {
     assert(FizzBuzz.checkNumber(5) === "Buzz")
   }
 
+  test("replaces 15 with FizzBuzz") {
+    assert(FizzBuzz.checkNumber(15) === "FizzBuzz")
+  }
+
 }
