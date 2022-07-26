@@ -1,0 +1,9 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/graemestirling/fizz-buzz/src/main/scala/FizzBuzz.scala:7:13: value :+= is not a member of Array[Nothing][0m
+[0m[[0m[31merror[0m] [0m[0m  Expression does not convert to assignment because:[0m
+[0m[[0m[31merror[0m] [0m[0m    type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m     found   : IndexedSeq[Int][0m
+[0m[[0m[31merror[0m] [0m[0m     required: Array[Nothing][0m
+[0m[[0m[31merror[0m] [0m[0m    expansion: array = array.$colon$plus(a)[0m
+[0m[[0m[31merror[0m] [0m[0m      array :+= a[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
