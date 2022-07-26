@@ -3,9 +3,17 @@ object FizzBuzz {
     var a = 0;
     var fizzBuzzArray = Array[String]()
     for( a <- 1 to number){
-      fizzBuzzArray = fizzBuzzArray :+ a.toString
+      fizzBuzzArray = fizzBuzzArray :+ checkNumber(a)
     }
-    var arrayString = fizzBuzzArray.mkString(", ")
-    arrayString
+   fizzBuzzArray.mkString(", ")
+  }
+
+  def checkNumber(number: Int): String = {
+    if (number % 3 == 0) {
+      "Fizz"
+    }
+    else {
+      number.toString
+    }
   }
 }
