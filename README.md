@@ -1,9 +1,9 @@
 Fizz Buzz Kata
-Return “fizz”, “buzz” or “fizzbuzz”.
+Return “Fizz”, “Buzz” or “FizzBuzz”.
 
 For a given natural number greater than zero return:
 
-“fizz” if the number is dividable by 3
-“buzz” if the number is dividable by 5
-“fizzbuzz” if the number is dividable by 15
+“Fizz” if the number is dividable by 3
+“Buzz” if the number is dividable by 5
+“FizzBuzz” if the number is dividable by 15
 the same number if no other requirement is fulfilled
