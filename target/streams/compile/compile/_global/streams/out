@@ -1,4 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/graemestirling/fizz-buzz/src/main/scala/FizzBuzz.scala:6:40: not found: value checkNumber[0m
-[0m[[0m[31merror[0m] [0m[0m      fizzBuzzArray = fizzBuzzArray :+ checkNumber(a)[0m
-[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
