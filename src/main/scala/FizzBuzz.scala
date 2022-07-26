@@ -1,11 +1,8 @@
 object FizzBuzz {
   def generate(number: Int): String = {
-    var a = 0;
-    var fizzBuzzArray = Array[String]()
-    for( a <- 1 to number){
-      fizzBuzzArray = fizzBuzzArray :+ fizzBuzzNumber(a)
-    }
-   fizzBuzzArray.mkString(", ")
+    (1 to number)
+      .map(fizzBuzzNumber)
+      .mkString(", ")
   }
 
   def fizzBuzzNumber(number: Int): String = {
